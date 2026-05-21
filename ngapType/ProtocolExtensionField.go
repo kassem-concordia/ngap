@@ -786,10 +786,12 @@ type GBRQosInformationExtIEs struct {
 
 const (
 	GBRQosInformationExtIEsPresentNothing int = iota /* No components present */
+	GBRQosInformationExtIEsPresentAlternativeQoSParaSetList	  //kassem
 )
 
 type GBRQosInformationExtIEsExtensionValue struct {
 	Present int
+	AlternativeQoSParaSetList *AlternativeQoSParaSetList `aper:"valueExt,referenceFieldValue:233"` //kassem
 }
 
 type GlobalGNBIDExtIEs struct {

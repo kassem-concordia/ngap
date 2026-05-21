@@ -179,4 +179,5 @@ const (
 	ProtocolIEIDNID                                        int64 = 263
 	ProtocolIEIDExtendedSliceSupportList                   int64 = 270
 	ProtocolIEIDExtendedTAISliceSupportList                int64 = 271
+	ProtocolIEIDAlternativeQoSParaSetList                  int64 = 233 //kassem
 )
