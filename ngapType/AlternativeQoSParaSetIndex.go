@@ -1,6 +1,6 @@
 package ngapType
 
-import "github.com/free5gc/aper"
+
 
 
 
