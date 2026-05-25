@@ -791,7 +791,7 @@ const (
 
 type GBRQosInformationExtIEsExtensionValue struct {
 	Present                   int
-	AlternativeQoSParaSetList *AlternativeQoSParaSetList `aper:"valueExt,referenceFieldValue:220"` //kassem
+	AlternativeQoSParaSetList *AlternativeQoSParaSetList `aper:"referenceFieldValue:220"` //kassem
 }
 
 type GlobalGNBIDExtIEs struct {
